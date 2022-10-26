@@ -1,0 +1,84 @@
+* {
+  font-family: Roboto;
+}
+
+.body_wrapper {
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.bio {
+  /* border: 3px solid orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .bio > img {
+  border: 3px solid purple;
+} */
+
+.descr {
+  color: #445964;
+  font-weight: 500;
+  size: 1.5rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header {
+  /* border: 3px solid purple; */
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 900;
+  gap: 1rem;
+}
+
+.grey_txt {
+  color: #445964;
+}
+
+.black_txt {
+  color: rgb(46, 52, 58);
+}
+
+.technologies {
+  /* border: 3px solid purple; */
+  display: flex;
+  flex-direction: column;
+  font-size: 2.25rem;
+  color: #445964;
+  font-weight: 900;
+  gap: 3rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.technology {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.063rem;
+}
+
+.shrink {
+  /* border: 3px solid red; */
+  margin: 0;
+}
